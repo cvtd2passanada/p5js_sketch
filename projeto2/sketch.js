@@ -21,7 +21,7 @@ function draw() {
     }
     if(mouseX > posicaoHorizontal) {
     posicaoHorizontal = posicaoHorizontal + 1;
-
+    }
 if(mouseY < posicaoVertical) {
     posicaoVertical  --;
 }
@@ -33,4 +33,3 @@ if(mouseY > posicaoVertical) {
     cor = color(random(0, 255), random(0, 255), random(0,255),
 random(0, 100));
     }
-}
